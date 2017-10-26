@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    /*outline: 1px solid yellow;*/
+}
+
+ul{
+    /*outline: 1px solid black;*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #2e2e2a;
+    line-height: 35px;
+    overflow: auto; /*siempre va con el float, este le devuelvo el contexto de bloque al contenedor*/
+    
+}
+
+li{
+    /*outline: 1px solid red;*/
+    width: 100px;
+    float: left; /*display: inline-block;*/
+    text-align: center;
+
+}
+
+a{
+    /*outline: 1px solid green;*/
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+a:hover{
+    background: #f9a91a;
+    color:#000;
+}
